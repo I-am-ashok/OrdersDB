@@ -1,0 +1,4 @@
+To zip the files
+#Compress-Archive -Path OrdersDB\* -DestinationPath ordersdb.zip
+To update the files in zip file
+#Compress-Archive -Path .\Config\variable.txt -Update -DestinationPath .\ordersdb.zip
