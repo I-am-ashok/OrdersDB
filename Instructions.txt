@@ -2,3 +2,10 @@ To zip the files
 #Compress-Archive -Path OrdersDB\* -DestinationPath ordersdb.zip
 To update the files in zip file
 #Compress-Archive -Path .\Config\variable.txt -Update -DestinationPath .\ordersdb.zip
+
+#create Local directory in the masterNode
+# mkdir PYSPARK/OrdersDB
+
+# copy local directory to HDFS
+
+HDFS dfs -copyFromLocal /user/mashok4102/PYSPARK/OrdersDB/* HDFS://masterNode/user/mashok4102/PYSPARK/OrdersDB
