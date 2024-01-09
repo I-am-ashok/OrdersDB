@@ -1,0 +1,2 @@
+ordjsonfile=H:\GitHub\OrdersDB\Data\orders
+orditjsonfile=H:\GitHub\OrdersDB\Data\order_items
