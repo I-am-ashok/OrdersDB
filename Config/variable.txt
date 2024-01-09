@@ -1,2 +1,2 @@
-ordjsonfile=/user/masok4102/PYSPARK/OrdersDB/Data/orders
-orditjsonfile=/user/masok4102/PYSPARK/OrdersDB/Data/order_items
+ordjsonfile=/user/mashok4102/PYSPARK/OrdersDB/Data/orders
+orditjsonfile=/user/mashok4102/PYSPARK/OrdersDB/Data/order_items
